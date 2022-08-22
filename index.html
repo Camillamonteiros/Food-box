@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodBox</title>
+
+    <link rel="stylesheet" href="/style.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="/man.js"></script>    
+
+</head>
+
+<body>
+    <div class="topo">
+        <h1>FoodBox</h1>
+        <h2>Monte seu box e receba em 30 minutos</h2>
+    </div>
+
+    <h3>Escolha seu prato</h3>
+
+    <div id="frango" class="produto" onclick="escolherfrango()">
+        <img src="imagens/Frango.jpg">
+        <h4>Frango Yin-yang</h4>
+        <p>Frango grelhado, acompanhado de salada</p>
+        <p>R$19,90</p>
+    </div>
+
+    <div id="carne" class="produto" onclick= "escolhercarne()">
+        <img src="imagens/carne.jpg">
+        <h4>Carne Grelhada</h4>
+        <p>Carne grelhada acompanhado de fritas e arroz</p>
+        <p>R$29,90</p>
+    </div>
+
+    <h3>Agora, escolha a sua bebida</h3>
+
+    <div id="coca" class="bebidas" onclick="escolhercoca()">
+        <img src="Imagens/coca.jpg">
+        <h4>Refrigerante</h4>
+        <p>Coca normal ou coca zero </p>
+        <p>R$5,90</p>
+    </div>
+
+    <div id="suco" class="bebidas" onclick="escolhersuco()">
+        <img src="imagens/suco.jpg">
+        <h4>Suco natural</h4>
+        <p>Suco de laranja, verde ou morango</p>
+        <p>R$4,90</p>
+    </div>
+
+    <h3>Escolha a sua sobremesa</h3>
+    
+    <div id="pudim" class="sobremesa" onclick="escolherpudim()">
+        <img src="imagens/pudim.jpg">
+        <h4>Pudim</h4>
+        <p>Pedaço de pudim de leite condensado</p>
+        <p>R$7,90</p>
+    </div>
+
+    <div id="brigadeiro" class="sobremesa" onclick="escolherbrigadeiro()">
+        <img src="imagens//brigadeiro.jpg">
+        <h4>Brigadeiro</h4>
+        <p>Duas unidades de Brigadeiro</p>
+        <p>R$6,90</p>
+    </div>
+    
+    <div class="botão" onclick="finalizarpedido()">
+        <h4>Finalize aqui seu pedido</h4>
+    </div>
+
+</body>
+</html>
